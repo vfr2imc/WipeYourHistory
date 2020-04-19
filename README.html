@@ -1,0 +1,62 @@
+
+<!-- saved from url=(0027)http://wipeyourhistory.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><h1>This is an open-source program to delete your reddit history.</h1>
+<h4>This is free, made by me. There is no license, use it anyway you want to.</h4>
+If you want to pay me for my efforts / donate, please donate via Bitcoin to one of the following two sweet addresses:<br>
+1<b>PrAiseKEK</b>mg9Hj2LjTxoAvMcvh6SaZ2uD -- Donate here if you just want to pay me for my work.<br>
+1<b>MAgAtRUmptd</b>Z6v29wxy32h6UEnXf4NmGC -- Donate here if you just are happy to live in this timeline because this was one lucky address find!<br>
+<br>
+<br>
+Source code: <a href="https://github.com/vfr2imc/WipeYourHistory">https://github.com/vfr2imc/WipeYourHistory</a><br>
+<br>
+Or download directly from here:<br>
+<ol>
+<li><a href="http://wipeyourhistory.com/deletebot.py">DeleteBot.py</a>
+</li><li><a href="http://wipeyourhistory.com/praw.ini">praw.ini</a>
+</li></ol>
+<br>
+If you are running this from the source code, you will need to install the "praw" library using pip. Very easy, <a href="https://www.google.com/search?q=how%20to%20install%20praw">google it.</a><br>
+<br>
+<br>
+<br>
+If you are a Windows user and don't want to bother with installing python, here is a self-contained executible: <a href="http://wipeyourhistory.com/deletebot.zip">deletebot.zip</a><br>
+MD5: A62EAF1697A8BF22B43392B4B4DA00CD<br>
+<br>
+<h1>Installation &amp; Usage</h1>
+<h4>Source Code Prep</h4>
+<ol>
+<li>Install Python
+</li><li>Install library "praw"
+</li><li>Install library "time"
+</li><li>Edit praw.ini file
+</li></ol>
+
+<h4>Windows Prep</h4>
+<ol>
+<li>Unzip into any folder
+</li><li>Edit praw.ini file
+</li></ol>
+
+<h4>Editing the praw.ini file
+<ul>
+<li>Scroll down to where it says [DeleteBot]<br><img border="5" valign="top" src="./README_files/prawedit.PNG"><br><br></li>
+<li>There are 5 values to edit.</li>
+<li>Username &amp; Password are self-explanatory. Put in your reddit info for the account you want to clear.</li>
+<li>daystokeep is the days your comments and posts on reddit should survive. Anything older than the number listed there will be deleted (default is 7 days).</li>
+<li>The remaining two items (client_id and client_secret) require some action by you on Reddit.
+	<ol>
+	<li>Go to <a href="http://old.reddit.com/">http://old.reddit.com/</a></li>
+	<li>Click "preferences"<br><img border="5" valign="top" src="./README_files/preferences.PNG"><br><br></li>
+	<li>Click "apps"<br><img border="5" valign="top" src="./README_files/apps.PNG"><br><br></li>
+	<li>Click the button<br><img border="5" valign="top" src="./README_files/button.PNG"><br><br></li>
+	<li>Fill out the app page<br><img border="5" valign="top" src="./README_files/filloutapp.PNG"><br><br></li>
+	<li>Your client_id is under the BLUE marker. Your client_secret is under the YELLOW marker<br><img border="5" valign="top" src="./README_files/clientinfo.PNG"><br><br></li>
+
+<li>Copy &amp; paste your client id &amp; secret.
+</li><li>You are done editing the praw.ini file!
+</li></ol></li></ul>
+</h4><h4>Save and run the script.</h4>
+It can only delete 500 old items per run-through. So if your account is years old, you may have to run this a few times.<br><br>
+If you set it in your start-up folder, it will continuously keep your reddit history clean.<br>
+
+<br><br>595<br><br></body></html>
